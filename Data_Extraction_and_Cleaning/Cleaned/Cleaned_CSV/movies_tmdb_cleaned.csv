@@ -1,0 +1,121 @@
+Movie/Show Name,Genre(s),IMDb Rating,Number of Votes,Release Year,Runtime (optional),Popularity Index (from API if available)
+The Shawshank Redemption,"Drama, Crime",8.712,28987,1970-01-01 00:00:00.000001994,142,28.1802
+The Godfather,"Drama, Crime",8.7,21913,1970-01-01 00:00:00.000001972,175,26.8639
+The Godfather Part II,"Drama, Crime",8.6,13241,1970-01-01 00:00:00.000001974,202,14.1123
+Schindler's List,"Drama, History, War",8.567,16753,1970-01-01 00:00:00.000001993,195,11.345
+12 Angry Men,Drama,8.5,9446,1970-01-01 00:00:00.000001957,97,13.0109
+Spirited Away,"Animation, Family, Fantasy",8.536,17535,1970-01-01 00:00:00.000002001,125,16.4473
+The Dark Knight,"Drama, Action, Crime, Thriller",8.524,34510,1970-01-01 00:00:00.000002008,152,29.2222
+Dilwale Dulhania Le Jayenge,"Comedy, Drama, Romance",8.5,4508,1970-01-01 00:00:00.000001995,190,7.1768
+The Green Mile,"Fantasy, Drama, Crime",8.5,18421,1970-01-01 00:00:00.000001999,189,15.0024
+Parasite,"Comedy, Thriller, Drama",8.498,19565,1970-01-01 00:00:00.000002019,133,19.9417
+The Lord of the Rings: The Return of the King,"Adventure, Fantasy, Action",8.49,25517,1970-01-01 00:00:00.000002003,201,21.6224
+Pulp Fiction,"Thriller, Crime, Comedy, Drama",8.487,29143,1970-01-01 00:00:00.000001994,154,16.5242
+Your Name.,"Animation, Romance, Drama",8.479,12030,1970-01-01 00:00:00.000002016,106,11.6756
+Forrest Gump,"Comedy, Drama, Romance",8.465,28704,1970-01-01 00:00:00.000001994,142,16.2693
+"The Good, the Bad and the Ugly",Western,8.463,9193,1970-01-01 00:00:00.000001966,161,10.9502
+Interstellar,"Adventure, Drama, Science Fiction",8.461,38001,1970-01-01 00:00:00.000002014,169,49.9436
+GoodFellas,"Drama, Crime",8.454,13681,1970-01-01 00:00:00.000001990,145,10.9643
+Seven Samurai,"Action, Drama",8.452,4000,1970-01-01 00:00:00.000001954,207,7.3756
+Grave of the Fireflies,"Animation, Drama, War",8.449,6133,1970-01-01 00:00:00.000001988,89,0.0091
+Life Is Beautiful,"Comedy, Drama",8.441,13570,1970-01-01 00:00:00.000001997,116,8.4615
+Fight Club,"Drama, Thriller",8.438,30851,1970-01-01 00:00:00.000001999,139,19.8631
+Harakiri,"Action, Drama, History",8.436,1120,1970-01-01 00:00:00.000001962,135,5.0441
+Cinema Paradiso,"Drama, Romance",8.435,4621,1970-01-01 00:00:00.000001988,124,4.4042
+Impossible Things,"Family, Drama",8.4,414,1970-01-01 00:00:00.000002021,88,1.8823
+City of God,"Drama, Crime",8.43,7822,1970-01-01 00:00:00.000002002,129,10.7946
+A Dog's Will,"Comedy, Drama, Fantasy, Romance",8.424,1185,1970-01-01 00:00:00.000002000,104,1.5526
+The Lord of the Rings: The Fellowship of the Ring,"Adventure, Fantasy, Action",8.4,26453,1970-01-01 00:00:00.000002001,179,24.7092
+Psycho,"Horror, Thriller, Mystery",8.421,10543,1970-01-01 00:00:00.000001960,109,16.5415
+One Flew Over the Cuckoo's Nest,Drama,8.412,10981,1970-01-01 00:00:00.000001975,133,8.705
+The Lord of the Rings: The Two Towers,"Adventure, Fantasy, Action",8.4,22978,1970-01-01 00:00:00.000002002,179,17.524
+Gabriel's Inferno,"Romance, Drama",8.406,2434,1970-01-01 00:00:00.000002020,122,3.275
+Once Upon a Time in America,"Drama, Crime",8.403,5756,1970-01-01 00:00:00.000001984,229,7.3649
+Spider-Man: Into the Spider-Verse,"Animation, Action, Adventure, Science Fiction",8.396,16504,1970-01-01 00:00:00.000002018,117,15.9999
+Hope,Drama,8.397,802,1970-01-01 00:00:00.000002013,122,4.0474
+Howl's Moving Castle,"Fantasy, Animation, Adventure",8.395,10558,1970-01-01 00:00:00.000002004,119,13.733
+The Empire Strikes Back,"Adventure, Action, Science Fiction",8.395,17731,1970-01-01 00:00:00.000001980,124,6.5113
+A Silent Voice: The Movie,"Animation, Drama, Romance",8.4,4240,1970-01-01 00:00:00.000002016,129,9.7866
+The Pianist,"Drama, War",8.381,9714,1970-01-01 00:00:00.000002002,150,7.0338
+Lucy Shimmers and the Prince of Peace,"Drama, Family",8.379,322,1970-01-01 00:00:00.000002020,87,4.6584
+Whiplash,"Drama, Music",8.376,15959,1970-01-01 00:00:00.000002014,107,12.2632
+Se7en,"Crime, Mystery, Thriller",8.376,22174,1970-01-01 00:00:00.000001995,127,16.7846
+Inception,"Action, Science Fiction, Adventure",8.37,38051,1970-01-01 00:00:00.000002010,148,24.2067
+Gabriel's Inferno: Part II,"Romance, Drama",8.369,1532,1970-01-01 00:00:00.000002020,106,1.1809
+Gabriel's Inferno: Part III,"Romance, Drama",8.367,1067,1970-01-01 00:00:00.000002020,102,4.1095
+Radical,Drama,8.363,478,1970-01-01 00:00:00.000002023,126,3.0029
+Rear Window,"Thriller, Mystery",8.349,6852,1970-01-01 00:00:00.000001954,112,4.4315
+High and Low,"Drama, Crime, Thriller",8.346,1037,1970-01-01 00:00:00.000001963,142,4.8326
+The Silence of the Lambs,"Crime, Thriller, Drama",8.346,17160,1970-01-01 00:00:00.000001991,119,4.7506
+Spider-Man: Across the Spider-Verse,"Animation, Action, Adventure, Science Fiction",8.339,7947,1970-01-01 00:00:00.000002023,140,18.8867
+American History X,Drama,8.332,12083,1970-01-01 00:00:00.000001998,119,8.4236
+The Legend of Hei,"Animation, Fantasy, Action",8.33,409,1970-01-01 00:00:00.000002019,102,4.4028
+Dou kyu sei – Classmates,"Romance, Animation",8.329,414,1970-01-01 00:00:00.000002016,61,3.465
+Princess Mononoke,"Adventure, Fantasy, Animation",8.327,8550,1970-01-01 00:00:00.000001997,134,10.5183
+The Quintessential Quintuplets Movie,"Animation, Comedy, Romance",8.324,418,1970-01-01 00:00:00.000002022,136,4.9006
+A Brighter Summer Day,"Crime, Drama, Romance",8.321,358,1970-01-01 00:00:00.000001991,237,5.2856
+Back to the Future,"Adventure, Comedy, Science Fiction",8.321,20932,1970-01-01 00:00:00.000001985,116,15.4185
+The Wild Robot,"Animation, Science Fiction, Family, Drama",8.3,5398,1970-01-01 00:00:00.000002024,102,21.7855
+"Josee, the Tiger and the Fish","Animation, Drama, Romance",8.311,541,1970-01-01 00:00:00.000002020,98,4.1227
+Ikiru,Drama,8.311,1246,1970-01-01 00:00:00.000001952,143,5.0147
+Perfect Blue,"Animation, Thriller",8.303,2940,1970-01-01 00:00:00.000001998,82,12.1412
+Dead Poets Society,Drama,8.301,11948,1970-01-01 00:00:00.000001989,129,15.1759
+Léon: The Professional,"Crime, Drama, Action",8.3,15489,1970-01-01 00:00:00.000001994,111,10.4625
+Violet Evergarden: The Movie,"Animation, Fantasy, Romance, Drama",8.296,463,1970-01-01 00:00:00.000002020,140,5.1177
+Sunset Boulevard,Drama,8.3,2763,1970-01-01 00:00:00.000001950,110,5.9083
+The Great Dictator,"Comedy, War",8.29,3537,1970-01-01 00:00:00.000001940,125,3.0148
+Counterattack,"Action, Adventure, Thriller",8.287,753,1970-01-01 00:00:00.000002025,85,10.5186
+Dedicated to my ex,"Drama, Comedy",8.3,512,1970-01-01 00:00:00.000002019,94,1.2535
+Given,"Animation, Drama, Music, Romance",8.3,407,1970-01-01 00:00:00.000002020,60,2.6721
+We All Loved Each Other So Much,"Drama, Comedy",8.286,621,1970-01-01 00:00:00.000001974,124,1.913
+Modern Times,"Comedy, Drama, Romance",8.282,3895,1970-01-01 00:00:00.000001936,87,3.4818
+Once Upon a Time in the West,"Drama, Western",8.3,4646,1970-01-01 00:00:00.000001968,166,8.6698
+Once Upon a Studio,"Animation, Family, Fantasy, Comedy",8.278,403,1970-01-01 00:00:00.000002023,9,4.9769
+Hotarubi no Mori e,"Romance, Animation, Fantasy",8.3,1168,1970-01-01 00:00:00.000002011,45,0.0042
+Neon Genesis Evangelion: The End of Evangelion,"Animation, Science Fiction, Action, Drama",8.3,1735,1970-01-01 00:00:00.000001997,87,9.2715
+It's a Wonderful Life,"Drama, Family, Fantasy",8.3,4612,1970-01-01 00:00:00.000001946,130,5.2638
+The Intouchables,"Drama, Comedy",8.272,17893,1970-01-01 00:00:00.000002011,113,13.3461
+KPop Demon Hunters,"Family, Fantasy, Music, Comedy, Adventure, Animation",8.27,1615,1970-01-01 00:00:00.000002025,96,142.4734
+Apocalypse Now,"Drama, War",8.271,8676,1970-01-01 00:00:00.000001979,147,7.0983
+City Lights,"Comedy, Drama, Romance",8.266,2329,1970-01-01 00:00:00.000001931,87,3.1318
+Paths of Glory,"War, Drama",8.259,3106,1970-01-01 00:00:00.000001957,88,2.9075
+Miracle in Cell No. 7,Drama,8.256,4491,1970-01-01 00:00:00.000002019,132,4.4847
+The Lion King,"Family, Animation, Drama, Adventure",8.3,19067,1970-01-01 00:00:00.000001994,89,15.1532
+Rascal Does Not Dream of a Dreaming Girl,"Animation, Romance, Drama, Fantasy",8.3,560,1970-01-01 00:00:00.000002019,90,4.3117
+Taylor Swift: Reputation Stadium Tour,Music,8.25,412,1970-01-01 00:00:00.000002018,125,4.3076
+Le Trou,"Drama, Thriller, Crime",8.249,524,1970-01-01 00:00:00.000001960,132,6.2516
+Oldboy,"Drama, Thriller, Mystery, Action",8.248,9276,1970-01-01 00:00:00.000002003,120,12.5557
+Clouds,"Music, Drama, Romance",8.248,1033,1970-01-01 00:00:00.000002020,121,3.2117
+The Legend of 1900,"Drama, Music",8.248,2353,1970-01-01 00:00:00.000001998,170,3.3947
+Life in a Year,"Drama, Romance",8.243,1939,1970-01-01 00:00:00.000002020,107,7.7254
+I Want to Eat Your Pancreas,"Animation, Drama, Romance",8.239,1674,1970-01-01 00:00:00.000002018,108,6.1762
+Avengers: Endgame,"Adventure, Science Fiction, Action",8.238,26810,1970-01-01 00:00:00.000002019,181,16.5938
+Avengers: Infinity War,"Adventure, Action, Science Fiction",8.236,31017,1970-01-01 00:00:00.000002018,149,29.2625
+Klaus,"Animation, Family, Adventure, Comedy, Fantasy",8.234,4364,1970-01-01 00:00:00.000002019,96,7.6187
+The Matrix,"Action, Science Fiction",8.233,26864,1970-01-01 00:00:00.000001999,136,18.4761
+Come and See,"Drama, War",8.2,1681,1970-01-01 00:00:00.000001985,142,7.0828
+Five Feet Apart,"Romance, Drama",8.23,5781,1970-01-01 00:00:00.000002019,116,7.3608
+Out of the Clear Blue Sky,"Comedy, Drama, Music",8.227,362,1970-01-01 00:00:00.000002019,112,2.0121
+Green Book,"Drama, Comedy, History",8.227,12296,1970-01-01 00:00:00.000002018,130,15.9196
+Il Sorpasso,"Drama, Comedy, Adventure",8.225,808,1970-01-01 00:00:00.000001962,105,2.0303
+TAYLOR SWIFT | THE ERAS TOUR,Music,8.228,472,1970-01-01 00:00:00.000002023,169,4.2096
+Michael Jackson's Thriller,"Horror, Thriller, Music",8.2,722,1970-01-01 00:00:00.000001983,14,3.5612
+Wolf Children,"Animation, Family, Drama, Fantasy",8.222,2381,1970-01-01 00:00:00.000002012,117,4.365
+Mommy,Drama,8.22,2780,1970-01-01 00:00:00.000002014,138,1.7835
+Saving Private Ryan,"Drama, History, War",8.22,16567,1970-01-01 00:00:00.000001998,169,11.5437
+Gladiator,"Action, Drama, Adventure",8.22,20119,1970-01-01 00:00:00.000002000,155,14.1642
+Witness for the Prosecution,"Drama, Mystery, Crime",8.218,1551,1970-01-01 00:00:00.000001957,116,5.3188
+Justice League Dark: Apokolips War,"Animation, Action, Science Fiction, Adventure, Fantasy",8.216,1516,1970-01-01 00:00:00.000002020,90,4.3018
+Inglourious Basterds,"Drama, Thriller, War",8.215,23287,1970-01-01 00:00:00.000002009,153,16.3999
+Woman in the Dunes,"Drama, Thriller",8.215,491,1970-01-01 00:00:00.000001964,147,4.6992
+"The Boy, the Mole, the Fox and the Horse","Animation, Family, Adventure, Fantasy",8.2,660,1970-01-01 00:00:00.000002022,35,5.8227
+Puss in Boots: The Last Wish,"Animation, Adventure, Fantasy, Comedy, Family",8.211,8429,1970-01-01 00:00:00.000002022,103,14.6745
+Wolfwalkers,"Animation, Family, Adventure, Fantasy",8.21,1298,1970-01-01 00:00:00.000002020,102,3.8844
+Demon Slayer -Kimetsu no Yaiba- The Movie: Mugen Train,"Animation, Action, Fantasy, Thriller",8.209,4267,1970-01-01 00:00:00.000002020,117,26.9456
+The Shining,"Horror, Thriller",8.208,18232,1970-01-01 00:00:00.000001980,144,11.1941
+The Help,Drama,8.205,8706,1970-01-01 00:00:00.000002011,146,10.8251
+Star Wars,"Adventure, Action, Science Fiction",8.204,21545,1970-01-01 00:00:00.000001977,121,14.2586
+The Prestige,"Drama, Mystery, Science Fiction",8.204,16848,1970-01-01 00:00:00.000002006,130,9.572
+Coco,"Family, Animation, Music, Adventure",8.202,20281,1970-01-01 00:00:00.000002017,105,31.9065
+Evangelion: 3.0+1.0 Thrice Upon a Time,"Animation, Action, Science Fiction, Drama",8.2,877,1970-01-01 00:00:00.000002021,155,4.8827
+Shutter Island,"Drama, Thriller, Mystery",8.201,24936,1970-01-01 00:00:00.000002010,138,11.6983
