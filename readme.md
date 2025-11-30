@@ -1,123 +1,226 @@
-This is an excellent starting point. A great README should be easy to read, clearly outline the value, and provide straightforward instructions for setup.
+---
 
-Here is a revised and improved `README.md` structure based on your project details, enhancing clarity, structure, and professional appeal.
+# 🎬 **OTT-Insights Hub**
 
------
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![GitHub Repo](https://img.shields.io/badge/GitHub-OTT--Insights--Hub-black?logo=github)
 
-# 🎬 OTT-Insights Hub: Data-Driven Ratings & Genre Analysis
+### *A Complete Data Pipeline for Movie Ratings & Genre Insights*
 
+---
 
-[](https://www.python.org/)
-[](https://powerbi.microsoft.com/)
+## 📌 **Project Overview**
 
-## 🌟 Project Overview
+**OTT-Insights Hub** is a full-stack data analytics solution designed to help **media agencies, analysts, and content strategists** understand OTT platform trends using reliable public movie metadata.
 
-This project provides a comprehensive solution for media analytics agencies to track and analyze **trends in Over-The-Top (OTT) platform content**. By scraping high-quality rating and metadata from public movie databases (IMDb/TMDb) and centralizing it in a SQL warehouse, the project delivers actionable insights through an interactive Power BI dashboard.
+This project extracts data from TMDb/IMDb, cleans and processes it, loads it into a SQL database, and visualizes key insights using a **Power BI Dashboard**.
 
-The primary goal is to provide a data-driven view of top-rated content, user popularity, and genre distribution, enabling informed decision-making for content acquisition and market strategy.
+It answers key business questions like:
 
------
+✔ Which genres perform the best?
+✔ Which movies are most popular based on audience votes?
+✔ How have ratings evolved over time?
+✔ What content category dominates OTT platforms?
 
-## ✨ Key Insights and Analysis (Dashboard Features)
+---
 
-The Power BI dashboard connects directly to the processed SQL data to offer dynamic analysis on the following metrics:
+## 🖼️ **Power BI Dashboard Preview**
 
-  * **Average Ratings by Genre:** Identify which genres consistently perform the best with audiences.
-  * **Popularity Index:** A calculated metric based on a combination of **Rating** and **Vote Count** to reveal true audience favorites.
-  * **Total Content Volume:** Track the total number of unique movies and shows analyzed.
-  * **Temporal Rating Trends:** Visualize how content quality (ratings) has evolved over the past decade by **Release Year**.
-  * **Genre Distribution:** A detailed breakdown of the content library by genre.
+Below is a preview of the interactive dashboard showcasing key insights such as genre ratings, trends over time, vote distribution, and top movies.
 
------
+<p align="center">
+  <img width="1137" height="517" alt="image" src="https://github.com/user-attachments/assets/06ce7ad2-778b-45f7-b556-d233200a8034" />
 
-## ⚙️ Project Architecture
+</p>
 
-The solution follows a standard Extract, Transform, Load (ETL) pipeline:
+---
 
-1.  **Extract (Scraping):** Python scripts use `requests` and `BeautifulSoup` (or the respective platform API) to efficiently collect movie and show metadata (titles, ratings, votes, genres) from IMDB or TMDb.
-2.  **Load (Database):** The raw data is cleaned using `pandas` and then loaded into a centralized **SQL Server** database.
-3.  **Visualize (Dashboard):** **Power BI** connects to the SQL database to query and present the final insights through interactive reports.
+## ✨ **Dashboard Highlights**
 
------
+* **Average Ratings by Genre**
+* **Popularity Index** (Rating × Vote Count)
+* **Top Ranked Genres & Movies**
+* **Content Volume Trends Over the Years**
+* **Genre Distribution Analysis**
+* **Temporal Rating Trends**
 
-## 🛠️ Tech Stack
+---
 
-| Category | Tool / Library | Purpose |
-| :--- | :--- | :--- |
-| **Data Source** | IMDB or TMDb API | Source of content metadata and ratings. |
-| **Data Scraping** | Python, `requests`, `BeautifulSoup` | Core scripting for extraction and parsing. |
-| **Data Processing** | `pandas` | Data cleaning, transformation, and manipulation. |
-| **Database** | SQL Server (Recommended) / MySQL | Reliable storage for structured content data. |
-| **Database Connector** | `mysql-connector` | Used for connecting Python script to MySQL (if chosen). |
-| **Visualization** | Power BI Desktop | Primary tool for dashboard creation and interactive reporting. |
+## 🏗️ **Project Architecture (ETL Pipeline)**
 
------
+### 🔹 **1. Extract**
 
-## 📊 Data Model (Database Schema)
+* Fetch movie metadata using:
 
-The data is structured into a normalized schema using three tables to efficiently manage the many-to-many relationship between movies and genres.
+  * `tmdbsimple`
+  * `requests`
+  * `BeautifulSoup` (optional IMDb scraper)
 
-| Table Name | Description | Columns |
-| :--- | :--- | :--- |
-| **`movies`** | Contains core movie details and metadata. | `movie_id` (PK), `title`, `rating`, `release_year`, `votes`, `runtime`, `description`, etc. |
-| **`genres`** | A lookup table for unique genre names. | `genre_id` (PK), `genre_name` |
-| **`movie_genres`** | The bridge table linking movies to their genres. | `movie_id` (FK), `genre_id` (FK) |
+### 🔹 **2. Transform**
 
------
+* Clean data using:
 
-## 🚀 Getting Started
+  * `pandas`
+  * `numpy`
+* Normalize genres
+* Fix missing values
+* Create final analytics-ready dataset
 
-Follow these steps to set up the project locally.
+### 🔹 **3. Load**
 
-### Prerequisites
+* Store data into SQL using:
 
-You must have the following software installed:
+  * `mysql-connector-python`
+* Tables created:
 
-1.  **Python 3.x**
-2.  **SQL Server** (or a working MySQL instance)
-3.  **Power BI Desktop** (for Windows)
+  * `movies`
+  * `genres`
+  * `movie_genres` (many-to-many relationship)
 
-### 1\. Environment Setup
+### 🔹 **4. Visualize**
 
-Clone the repository and install the necessary Python dependencies:
+* Power BI dashboard connected to SQL
+
+---
+
+## 🛠️ **Tech Stack**
+
+| Layer               | Tools                               |
+| ------------------- | ----------------------------------- |
+| **Language**        | Python 3                            |
+| **Extraction**      | tmdbsimple, requests, BeautifulSoup |
+| **Processing**      | pandas, numpy                       |
+| **Database**        | MySQL / SQL Server                  |
+| **Loader**          | mysql-connector-python              |
+| **Dashboard**       | Power BI Desktop                    |
+| **Version Control** | Git & GitHub                        |
+
+---
+
+## 🗂️ **Database Schema**
+
+### 🟦 `movies`
+
+Columns: `movie_id`, `title`, `rating`, `votes`, `release_year`, `runtime`, `description`, `popularity`, …
+
+### 🟩 `genres`
+
+Columns: `genre_id`, `genre_name`
+
+### 🟧 `movie_genres`
+
+Columns: `movie_id`, `genre_id`
+
+---
+
+## 🚀 **Getting Started**
+
+### 🔧 Prerequisites
+
+Install:
+
+* Python 3.8+
+* MySQL / SQL Server
+* Power BI Desktop
+
+---
+
+## 🛑 Step 1: Clone Repo
 
 ```bash
 git clone https://github.com/sumitx2903/OTT-Insights-Hub.git
 cd OTT-Insights-Hub
+```
+
+---
+
+## 📦 Step 2: Install Dependencies
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 2\. Database Configuration
+---
 
-1.  Create a new database instance in your **SQL Server**.
-2.  Execute the database schema script (e.g., `sql_schema.sql` if included in the repo) to create the `movies`, `genres`, and `movie_genres` tables.
-3.  Update the database connection string (server name, credentials) in the scraping script (`scraper.py` or similar file) to ensure Python can connect.
+## 🗄️ Step 3: Database Setup
 
-### 3\. Data Scraping & Population
+Update DB config in Python files:
 
-1.  **API Key:** Obtain a free API key from TMDb or register on IMDB (if using an unofficial scraping route).
+```python
+host = "localhost"
+user = "root"
+password = "your_password"
+database = "ott_db"
+```
 
-2.  Place your API key in the designated configuration file (e.g., `.env` or as a variable within the main scraping script).
+---
 
-3.  Run the Python scraping script to populate the database:
+## 🔑 Step 4: TMDb API Key
 
-    ```bash
-    python scraper.py
-    ```
+Create a `.env` file:
 
-    \**(Note: Adjust the script name as per the repo structure)*
+```
+TMDB_API_KEY=your_key_here
+```
 
-### 4\. Power BI Dashboard Setup
+---
 
-1.  Open the Power BI file (`OTT_Insights_Dashboard.pbix` or similar file in the repo).
-2.  Navigate to **Home \> Transform Data \> Data source settings**.
-3.  Update the connection details to point to your local **SQL Server** instance and database name.
-4.  Apply the changes and refresh the report to load the newly scraped data.
+## 📥 Step 5: Run ETL Pipeline
 
------
+### 1️⃣ Extract
 
-## 🤝 Contribution
+```bash
+python DataExtract.py
+```
 
-Contributions, issues, and feature requests are welcome\! Feel free to check the [issues page](https://www.google.com/search?q=https://github.com/sumitx2903/OTT-Insights-Hub/issues).
+### 2️⃣ Clean
 
------
+```bash
+python Cleaning.py
+```
+
+### 3️⃣ Load into SQL
+
+```bash
+python import_data.py
+```
+
+---
+
+## 📊 Step 6: Power BI Dashboard Setup
+
+1. Open `.pbix` file
+2. Update SQL connection
+3. Refresh data
+
+---
+
+## 🤝 **Contributing**
+
+Contributions are welcome!
+
+### How to Contribute:
+
+1. Fork the repository
+2. Create a branch:
+   `git checkout -b feature-new`
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
+
+---
+
+## 📄 **License**
+
+This project is licensed under the **MIT License**.
+See the `LICENSE` file for details.
+
+---
+
+## ⭐ **Support the Project**
+
+If this project helped you, please give it a ⭐ on GitHub!
+
+👉 **[https://github.com/sumitx2903/OTT-Insights-Hub](https://github.com/sumitx2903/OTT-Insights-Hub)**
+
+---
